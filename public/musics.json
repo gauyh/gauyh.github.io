@@ -1,86 +1,152 @@
 [
   {
-    "title":"起风了",
-    "artist":"买辣椒也用券",
-    "src":"./music/m0.mp3",
-    "pic":"/musiccovers/m0.png"
+    "title":"遥远的你 (正式版)",
+    "artist":"221小伙伴",
+    "src":"./music/221小伙伴 - 遥远的你 (正式版).mp3",
+    "pic":"/musiccovers/m14.png"
   },
   {
-    "title":"海底（live）",
-    "artist":"凤凰传奇",
-    "src":"http://music.163.com/song/media/outer/url?id=1840192925.mp3",
-    "pic":"/musiccovers/m1.png"
+    "title":"我们毕业了",
+    "artist":"张力夫",
+    "src":"./music/张力夫 - 我们毕业了.mp3",
+    "pic":"/musiccovers/m28.png"
   },
   {
     "title":"北京东路的日子",
     "artist":"汪，刘，徐，鲁，姜，胡，张，梁，游，金，许，张",
-    "src":"http://music.163.com/song/media/outer/url?id=5240550.mp3",
+    "src":"./music/汪源 刘千楚 徐逸昊 鲁天舒 姜玮珉 胡梦原 张鎏依 梁竞元 游彧涵 金书援 许一璇 张夙西 - 北京东路的日子.mp3",
     "pic":"/musiccovers/m2.png"
+  },
+  {
+    "title":"睡在我上铺的兄弟",
+    "artist":"老狼",
+    "src":"./music/老狼 - 睡在我上铺的兄弟.mp3",
+    "pic":"/musiccovers/m21.png"
+  },
+  {
+    "title":"起风了",
+    "artist":"买辣椒也用券",
+    "src":"./music/买辣椒也用券 - 起风了.mp3",
+    "pic":"/musiccovers/m0.png"
+  },
+  {
+    "title":"青春大概",
+    "artist":"王上",
+    "src":"./music/王上 - 青春大概.mp3",
+    "pic":"/musiccovers/m11.png"
+  },
+  {
+    "title":"海底（live）",
+    "artist":"凤凰传奇",
+    "src":"./music/海底（Live）.mp3",
+    "pic":"/musiccovers/m1.png"
   },
   {
     "title":"入海",
     "artist":"毛不易",
-    "src":"http://music.163.com/song/media/outer/url?id=1449782341.mp3",
+    "src":"https://m10.music.126.net/20210515143219/6219ea5ab30712603cdb0d731840fab3/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2617699170/c6a5/68f7/acc8/47ff546c048db6c1d67b2c5ea288ad95.mp3",
     "pic":"/musiccovers/m3.png"
   },
   {
     "title":"形容",
     "artist":"沈以诚",
-    "src":"http://music.163.com/song/media/outer/url?id=1336856864.mp3",
+    "src":"./music/沈以诚 - 形容.mp3",
     "pic":"/musiccovers/m4.png"
+  },
+  {
+    "title":"光阴的故事",
+    "artist":"佟大为，邓超，黄晓明",
+    "src":"./music/佟大为 & 邓超 & 黄晓明 - 光阴的故事.mp3",
+    "pic":"/musiccovers/m27.png"
   },
   {
     "title":"我乐意",
     "artist":"许嵩",
-    "src":"http://music.163.com/song/media/outer/url?id=554191378.mp3",
+    "src":"./music/许嵩 - 我乐意.mp3",
     "pic":"/musiccovers/m5.png"
   },
   {
     "title":"所念皆星河",
     "artist":"CMJ",
-    "src":"http://music.163.com/song/media/outer/url?id=1384026889.mp3",
+    "src":"./music/CMJ - 所念皆星河.mp3",
     "pic":"/musiccovers/m6.png"
   },
   {
     "title":"相思豆",
     "artist":"灿烂，庸脂",
-    "src":"http://music.163.com/song/media/outer/url?id=1397578020.mp3",
+    "src":"./music/灿烂 庸脂 - 相思豆（记《中国唱诗班·相思》）.mp3",
     "pic":"/musiccovers/m7.png"
   },
   {
     "title":"爱殇",
-    "artist":"小时姑娘",
-    "src":"http://music.163.com/song/media/outer/url?id=1332153723.mp3",
+    "artist":"小时姑娘，龚骏",
+    "src":"./music/小时姑娘 龚骏 - 爱殇.mp3",
     "pic":"/musiccovers/m8.png"
   },
   {
     "title":"逝年",
     "artist":"夏小虎",
-    "src":"http://music.163.com/song/media/outer/url?id=32957955.mp3",
+    "src":"./music/夏小虎 - 逝年.mp3",
     "pic":"/musiccovers/m9.png"
   },
   {
     "title":"故梦（Cover 橙翼）",
     "artist":"双笙",
-    "src":"http://music.163.com/song/media/outer/url?id=409654891.mp3",
+    "src":"./music/双笙 - 故梦（Cover 橙翼）.mp3",
     "pic":"/musiccovers/m10.png"
-  },
-  {
-    "title":"青春大概",
-    "artist":"上上",
-    "src":"http://win.web.rh01.sycdn.kuwo.cn/2bba6eb2eba1dc5dd8bb7de6925b8976/609a34df/resource/n3/0/41/3702932551.mp3",
-    "pic":"/musiccovers/m11.png"
   },
   {
     "title":"让我偷偷看你",
     "artist":"赵雷",
-    "src":"http://win.web.nf01.sycdn.kuwo.cn/1c9d23243e485f60c24f66617a97390d/609a3635/resource/n1/67/31/3372416980.mp3",
+    "src":"./music/赵雷 - 让我偷偷看你.mp3",
     "pic":"/musiccovers/m12.png"
   },
   {
     "title":"锦鲤抄",
-    "artist":"云の泣",
-    "src":"http://win.web.ri01.sycdn.kuwo.cn/1e8475ae0c0ae9b297006d04be8f2095/609a3717/resource/n2/89/3/3136093797.mp3",
+    "artist":"银临，云の泣",
+    "src":"./music/银临 云の泣 - 锦鲤抄.mp3",
     "pic":"/musiccovers/m13.png"
+  },
+  {
+    "title":"想见你想见你想见你",
+    "artist":"八三夭",
+    "src":"./music/八三夭 - 想见你想见你想见你.mp3",
+    "pic":"/musiccovers/m16.png"
+  },
+  {
+    "title":"你笑起来真好看",
+    "artist":"李昕融，樊桐舟，李凯稠",
+    "src":"./music/李昕融 樊桐舟 李凯稠 - 你笑起来真好看.mp3",
+    "pic":"/musiccovers/m18.png"
+  },
+  {
+    "title":"我们的时光",
+    "artist":"赵雷",
+    "src":"./music/赵雷 - 我们的时光.mp3",
+    "pic":"/musiccovers/m19.png"
+  },
+  {
+    "title":"The Truth That You Leave",
+    "artist":"高至豪",
+    "src":"./music/高至豪 - The Truth That You Leave.mp3",
+    "pic":"/musiccovers/m23.png"
+  },
+  {
+    "title":"时光是座博物馆",
+    "artist":"木小雅",
+    "src":"./music/木小雅 - 时光是座博物馆.mp3",
+    "pic":"/musiccovers/m25.png"
+  },
+  {
+    "title":"鸟语林",
+    "artist":"双笙",
+    "src":"./music/双笙 - 鸟语林.mp3",
+    "pic":"/musiccovers/m26.png"
+  },
+  {
+    "title":"一生所爱",
+    "artist":"卢冠廷，莫文蔚",
+    "src":"./music/卢冠廷 莫文蔚 - 一生所爱.mp3",
+    "pic":"/musiccovers/m24.png"
   }
 ]

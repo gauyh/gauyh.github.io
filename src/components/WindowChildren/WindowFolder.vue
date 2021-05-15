@@ -44,21 +44,21 @@
           <div ref="main_body" class=" tw-flex-grow tw-w-full tw-flex tw-flex-col" style="background-color:#f8f8f8" :style="{'width':cont_width+'px'}" >
             <div class="tw-w-full tw-h-8 tw-border-b border tw-border-gray-300 tw-flex tw-items-center tw-text-mygray-b6 tw-tracking-tight tw-select-none" style="background-color:#e9e9e9">
               <div ref="name_col" class="tw-h-full tw-flex tw-items-center" style="" :style="{'width':name_col_width + 'px'}" @click="switch_selected('Name')">
-                <div class="tw-flex-none tw-ml-2">Name</div>
+                <div class="tw-flex-none tw-ml-2">名称</div>
                 <div class="tw-flex-grow tw-flex tw-flex-row-reverse">
                   <v-icon v-if="selected==='Name'">{{mdi_computed_direction}}</v-icon>
                 </div>
               </div>
               <WindowFolderSlider @mousedown.native="right_resize_grid_1"/>
               <div ref="date_col" class="tw-h-full tw-flex tw-items-center" style=""  :style="{'width':date_col_width + 'px'}" @click="switch_selected('Date Modified')">
-                <div class="tw-flex-none">Date Modified</div>
+                <div class="tw-flex-none">修改日期</div>
                 <div class="tw-flex-grow tw-flex tw-flex-row-reverse">
                   <v-icon v-if="selected==='Date Modified'">{{mdi_computed_direction}}</v-icon>
                 </div>
               </div>
               <WindowFolderSlider @mousedown.native="right_resize_grid_2"/>
               <div ref="size_col" class="tw-h-full tw-flex tw-items-center" style=""  :style="{'width':size_col_width + 'px'}" @click="switch_selected('Size')">
-                <div class="tw-flex-none">Size</div>
+                <div class="tw-flex-none">大小</div>
                 <div class="tw-flex-grow tw-flex tw-flex-row-reverse">
                   <v-icon v-if="selected==='Size'">{{mdi_computed_direction}}</v-icon>
                 </div>
