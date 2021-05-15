@@ -21,7 +21,7 @@ const routes = [
     name: "LoginPage",
     component: LoginPage,
     meta : {
-      title:"Deepin"
+      title:"GAUYH"
     }
   },
   {
@@ -29,7 +29,7 @@ const routes = [
     name: "DesktopWithPost",
     component: Desktop,
     meta : {
-      title:"Welcom to WEN's blog"
+      title:"GAUYH"
     }
   },
   {
@@ -37,7 +37,7 @@ const routes = [
     name: "Desktop",
     component: Desktop,
     meta : {
-      title:"Welcom to WEN's blog"
+      title:"GAUYH"
     }
   },
   {
