@@ -3,7 +3,7 @@
     <template v-slot:header>
       <div class="tw-flex tw-items-center tw-select-none" style="pointer-events:none;"> 
         <img src="../../assets/images/icons/vscode.png" alt="" style="pointer-events:none;" class=" tw-w-8 tw-h-7 tw-ml-4">
-        <div class=" tw-ml-4 tw-font-semibold tw-tracking-wider tw-h-8 tw-rounded-lg tw-px-4 tw-py-1  tw-text-white tw-bg-mygray-b13 hover:tw-bg-mygray-b14 " style="pointer-events:auto;max-width:400px;white-space:nowrap;text-overflow: ellipsis;overflow: hidden;"> - gauyh.github.io - Visual Studio Code </div>
+        <div class=" tw-ml-4 tw-font-semibold tw-tracking-wider tw-h-8 tw-rounded-lg tw-px-4 tw-py-1  tw-text-white tw-bg-mygray-b13 hover:tw-bg-mygray-b14 " style="pointer-events:auto;max-width:400px;white-space:nowrap;text-overflow: ellipsis;overflow: hidden;"> Visual Studio Code </div>
       </div>
     </template>
     <template v-slot:content>
