@@ -3,7 +3,7 @@
     <template v-slot:header>
       <div class="tw-flex tw-items-center tw-select-none" style="pointer-events:none;"> 
         <img src="../../assets/images/icons/music.png" alt="" style="pointer-events:auto;" class=" tw-w-8 tw-h-7 tw-ml-4">
-        <div class=" tw-ml-4 tw-font-bold tw-tracking-wider tw-w-14" style="pointer-events:auto;"> Music </div>
+        <div class=" tw-ml-4 tw-font-bold tw-tracking-wider tw-w-14" style="pointer-events:auto;"> 音乐 </div>
       </div>
     </template>
     <template v-slot:content>

@@ -49,10 +49,10 @@ export default {
       tipoffsetY:0,
       tipoffsetX:0,
       show_lock_tip:false,
-      input_src:"https://www.google.com/webhp?igu=1",
-      real_src:'https://www.google.com/webhp?igu=1',
+      input_src:"https://www.baidu.com/",
+      real_src:'https://www.baidu.com/',
       no_http:false,
-      href_stack:['https://www.google.com/webhp?igu=1',],
+      href_stack:['https://www.baidu.com/',],
       href_stack_pointer:0,
     }
   },
@@ -124,9 +124,9 @@ export default {
       } else {
         noheader = true
       }
-      let googlepat = /^((https|http|ftp|rtsp|mms)?:\/\/)?[w.]*google\.com(\/)*$/
+      let googlepat = /^((https|http|ftp|rtsp|mms)?:\/\/)?[w.]*baidu\.com(\/)*$/
       if (googlepat.test(this.input_src)) {
-        this.input_src = 'https://www.google.com/webhp?igu=1'
+        this.input_src = 'https://www.baidu.com/'
         noheader = false
       }
       if (noheader) {

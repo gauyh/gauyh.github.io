@@ -3,23 +3,23 @@
     <template v-slot:header>
       <div class="tw-flex tw-items-center tw-select-none" style="pointer-events:none;"> 
         <img src="../../assets/images/icons/settings.png" alt="" style="pointer-events:auto;" class=" tw-w-7 tw-h-7 tw-ml-4">
-        <div class=" tw-ml-4 tw-font-bold tw-tracking-wider" style="pointer-events:auto;"> About WEN </div>
+        <div class=" tw-ml-4 tw-font-bold tw-tracking-wider" style="pointer-events:auto;"> 设置 </div>
       </div>
     </template>
     <template v-slot:content>
       <div class=" tw-w-full  tw-h-full tw-rounded-b-2xl tw-overflow-hidden tw-flex
        tw-select-none" @contextmenu.prevent="mr_clicked">
         <div class=" tw-w-52 tw-bg-white tw-h-full tw-flex tw-flex-col tw-px-3 tw-py-2 tw-flex-none" >
-          <WindowSettingIcon :tag="'Profile'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = 'Profile';selected_tag_2 = 'About Me'}"/>
-          <WindowSettingIcon :tag="'Skills'" :img="'skills'" :selected_tag="selected_tag"  @click.native="{selected_tag = 'Skills';selected_tag_2 = 'Badges'}"/>
-          <WindowSettingIcon :tag="'Resume'" :img="'paint'" :selected_tag="selected_tag"  @click.native="selected_tag = 'Resume'"/>
+          <WindowSettingIcon :tag="'总则'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = 'Profile';selected_tag_2 = 'About Me'}"/>
+          <WindowSettingIcon :tag="'技能'" :img="'skills'" :selected_tag="selected_tag"  @click.native="{selected_tag = 'Skills';selected_tag_2 = 'Badges'}"/>
+          <WindowSettingIcon :tag="'恢复'" :img="'paint'" :selected_tag="selected_tag"  @click.native="selected_tag = 'Resume'"/>
         </div>
         <div class=" tw-flex-grow tw-h-full  tw-p-2">
           <div class="tw-w-full tw-h-full  tw-flex">
             <div class="tw-w-48 tw-flex-none tw-rounded-xl tw-bg-white tw-p-2">
               <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Profile'">
-                <WindowSettingIcon :tag="'About Me'" :mdi="'beaker-question'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'About Me'"/>
-                <WindowSettingIcon :tag="'Github Stats'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'Github Stats'"/>
+                <WindowSettingIcon :tag="'关于此项目'" :mdi="'beaker-question'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'About Me'"/>
+                <WindowSettingIcon :tag="'Github 统计'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'Github Stats'"/>
                 <WindowSettingIcon :tag="'CodeWars'" :mdi="'pistol'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'CodeWars'"/>
               </div>
               <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Skills'">
@@ -32,11 +32,11 @@
               <div class=" tw-w-full tw-h-full" v-if="selected_tag === 'Profile'">
                 <div ref="overall_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col" style="text-align:center" v-if="selected_tag_2 ==='About Me'">
                   <div class=" tw-w-20 tw-h-20 tw-rounded-full tw-overflow-hidden tw-mt-16">
-                    <img src="../../assets/images/goodmanwen.png" alt="" class="tw-bg-red-500">
+                    <img src="../../assets/images/taiy2020.png" alt="" class="tw-bg-red-500">
                   </div>
-                  <div class="tw-mt-3 tw-text-gray-400">GoodManWEN</div>
-                  <div class="tw-text-xl tw-mt-2 tw-tracking-wide"> Hi👋, this is WEN, your solution provider.</div>
-                  <div class="tw-text-lg tw-mt-2 tw-tracking-wide"> As majored in 📊 Big Data & High Performance Computing, I am also interested in, and got an exellent ability in web developing. </div>
+                  <div class="tw-mt-3 tw-text-gray-400">TAIY2020</div>
+                  <div class="tw-text-xl tw-mt-2 tw-tracking-wide"> Hello, This project comes from "https://GoodManWEN.github.io" and modified by TAIY2020.</div>
+                  <div class="tw-text-lg tw-mt-2 tw-tracking-wide"> 永远相信美好的事物即将发生！ </div>
                 </div>
                 <div ref="github_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center" style="text-align:center" v-if="selected_tag_2 ==='Github Stats'">
                   <img src="https://github-readme-stats.vercel.app/api?username=GoodManWEN&show_icons=true&line_height=24" alt="" class="tw-w-140 tw-h-40">
@@ -87,7 +87,7 @@
               </div>
               <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Resume'">
                 <div ref="overall_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center" style="text-align:center">
-                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> Coming Soon </div>
+                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> 敬请期待 </div>
                 </div>
               </div>
             </div>

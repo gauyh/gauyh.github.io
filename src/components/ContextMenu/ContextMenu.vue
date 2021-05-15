@@ -1,16 +1,16 @@
 <template>
   <div class="tw-w-44 tw-h-72  tw-absolute tw-rounded-xl tw-overflow-hidden tw-border tw-border-gray-400 tw-select-none" style="z-index:9999;backdrop-filter: blur(35px);box-shadow: 0 0 10px rgba(16,16,16,.3)" @click="fullclicked($event)" :style="{'left':context_menu_x+'px', 'top':context_menu_y +'px'}">
     <div class="tw-absolute tw-w-full tw-h-full tw-py-2 tw-flex tw-flex-col" style="background-color:rgba(235,235,235,.7)">
-      <ContextMenuButton disabled further_menu :text="'New'"/>
-      <ContextMenuButton disabled further_menu :text="'View'"/>
-      <ContextMenuButton disabled further_menu :text="'Sort by'"/>
-      <ContextMenuButton :text="'Reload Deepin'" @click.native="reload_clicked"/>
-      <ContextMenuButton disabled :text="'Paste'"/>
-      <ContextMenuButton  :text="'Open in Terminal'" @click.native="terminal_clicked"/>
+      <ContextMenuButton disabled further_menu :text="'新建'"/>
+      <ContextMenuButton disabled further_menu :text="'查看'"/>
+      <ContextMenuButton disabled further_menu :text="'排序方式'"/>
+      <ContextMenuButton :text="'重启 GAUYH'" @click.native="reload_clicked"/>
+      <ContextMenuButton disabled :text="'粘贴'"/>
+      <ContextMenuButton  :text="'打开 Terminal'" @click.native="terminal_clicked"/>
       <div class=" tw-w-full" style="height:1.5px;background-color:rgba(188,188,188,1)"></div>
-      <ContextMenuButton disabled :text="'Wallpapers'"/>
-      <ContextMenuButton  :text="'Settings'" @click.native="settings_clicked"/>
-      <ContextMenuButton  :text="'⭐ This Project'" @click.native="open_project"/>
+      <ContextMenuButton disabled :text="'壁纸'"/>
+      <ContextMenuButton  :text="'设置'" @click.native="settings_clicked"/>
+      <ContextMenuButton  :text="'源项目'" @click.native="open_project"/>
     </div>
   </div>
 </template>

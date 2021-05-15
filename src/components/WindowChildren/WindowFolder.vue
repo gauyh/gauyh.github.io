@@ -22,19 +22,19 @@
       <div class="tw-w-full tw-rounded-b-2xl tw-flex tw-select-none" :style="{'height':cont_height + 'px'}" v-if="true" @contextmenu.prevent="mr_clicked">
         <div ref="leftbar" class="tw-flex-none tw-bg-white tw-rounded-bl-2xl tw-overflow-hidden tw-flex tw-flex-row tw-select-none" style="min-width:160px;max-width:260px;width:208px" :style="{'opacity':global_focus===uuid?'1':'0.85'}">
           <div class=" tw-flex-grow tw-h-full tw-flex tw-items-center tw-flex-col tw-px-3">
-            <WindowFolderIcon :icon="'clock-time-three'" :text="'Recently'"/>
-            <WindowFolderIcon  :icon="'home-heart'" :text="'Home'"/>
-            <WindowFolderIcon  :icon="'television-guide'" :text="'Desktop'"/>
-            <WindowFolderIcon  :icon="'filmstrip'" :text="'Videos'"/>
-            <WindowFolderIcon  :icon="'music'" :text="'Musics'"/>
-            <WindowFolderIcon  :icon="'image'" :text="'Pictures'"/>
-            <WindowFolderIcon  :icon="'file-document'" :text="'Documents'"/>
-            <WindowFolderIcon  :icon="'delete'" :text="'Recycle Bin'"/>
+            <WindowFolderIcon :icon="'clock-time-three'" :text="'快速访问'"/>
+            <WindowFolderIcon  :icon="'home-heart'" :text="'主页'"/>
+            <WindowFolderIcon  :icon="'television-guide'" :text="'桌面'"/>
+            <WindowFolderIcon  :icon="'filmstrip'" :text="'视频'"/>
+            <WindowFolderIcon  :icon="'music'" :text="'音乐'"/>
+            <WindowFolderIcon  :icon="'image'" :text="'图片'"/>
+            <WindowFolderIcon  :icon="'file-document'" :text="'文档'"/>
+            <WindowFolderIcon  :icon="'delete'" :text="'回收站'"/>
             <div style="width:100%;height:2px;background-color:#efefef;margin-top:1px;margin-bottom:1px"></div>
-            <WindowFolderIcon  :icon="'desktop-mac-dashboard'" :text="'This PC'"/>
-            <WindowFolderIcon  :icon="'harddisk'" :text="'Root'"/>
+            <WindowFolderIcon  :icon="'desktop-mac-dashboard'" :text="'此电脑'"/>
+            <WindowFolderIcon  :icon="'harddisk'" :text="'根目录'"/>
             <div style="width:100%;height:2px;background-color:#efefef;margin-top:1px;margin-bottom:1px"></div>
-            <WindowFolderIcon  :icon="'earth'" :text="'Network'"/>
+            <WindowFolderIcon  :icon="'earth'" :text="'网络'"/>
           </div>
           <div class="tw-h-full tw-select-none" style="width:1px">
             <WindowSider :mode="1" @mousedown.native="right_resize" />

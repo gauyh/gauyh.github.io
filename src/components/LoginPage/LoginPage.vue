@@ -53,7 +53,7 @@
         <div class="tw-h-full tw-flex-grow"></div>
         <div class="tw-h-full flex-none tw-w-76 tw-flex tw-justify-center tw-items-center tw-pr-2" style="min-width:300px">
           <button class="tw-rounded-full tw-w-12 tw-h-12 tw-bg-mygray-light hover:tw-bg-mygray-dark active:tw-bg-mygray-darker tw-flex tw-justify-center tw-items-center  tw-outline-none" @click="show_keyboard_clicked()">
-            <v-icon class="tw-text-gray-100 "  >mdi-keyboard</v-icon>
+            <v-icon class="tw-text-gray-100 ">mdi-keyboard</v-icon>
           </button>
           <button class="tw-rounded-full tw-w-12 tw-h-12 tw-bg-mygray-light hover:tw-bg-mygray-dark active:tw-bg-mygray-darker ml-8 tw-flex tw-justify-center tw-items-center tw-outline-none" @click="show_middle_clicked">
             <v-icon class="tw-text-gray-100 ">mdi-power</v-icon>
@@ -90,9 +90,9 @@ export default {
       date_date:1,
       date_weekday:0,
       // user_name:"Observer",
-      user_name:"Guest",
-      password:"12345678",
-      password_answer:"12345678",
+      user_name:"GAUYH",
+      password:"gauyh",
+      password_answer:"gauyh",
       relay:false,
       show_loading_bar:false,
       button_shaking:false,

@@ -1,9 +1,9 @@
 <template>
   <div class="tw-w-44 tw-h-20  tw-absolute tw-rounded-xl tw-overflow-hidden tw-border tw-border-gray-400 tw-select-none" style="z-index:9999;backdrop-filter: blur(35px);box-shadow: 0 0 10px rgba(16,16,16,.3)" @click="fullclicked($event)" :style="{'left':context_menu_x+'px', 'top':context_menu_y_r +'px'}">
     <div class="tw-absolute tw-w-full tw-h-full tw-py-2 tw-flex tw-flex-col" style="background-color:rgba(235,235,235,.7)">
-      <ContextMenuButton v-if="!mode" :text="'Open'" @click.native="open_new_window"/>
-      <ContextMenuButton v-if="mode" :text="'Switch Visibility'" @click.native="switch_visibility"/>
-      <ContextMenuButton :disabled="!mode" :text="'Close All'" @click.native="close_all"/>
+      <ContextMenuButton v-if="!mode" :text="'打开'" @click.native="open_new_window"/>
+      <ContextMenuButton v-if="mode" :text="'开关可见度'" @click.native="switch_visibility"/>
+      <ContextMenuButton :disabled="!mode" :text="'全部关闭'" @click.native="close_all"/>
     </div>
   </div>
 </template>

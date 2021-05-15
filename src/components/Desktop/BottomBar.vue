@@ -5,43 +5,43 @@
         <div class=" tw-absolute tw-h-full  tw-flex tw-items-center tw-justify-center" style="left:0">
           <div class="tw-w-full tw-h-full  tw-hidden sm:tw-block">
             <div class=" tw-w-full tw-h-full tw-flex tw-items-center  tw-px-2">
-              <Icon :srcc="'menu'" mode="large" @button_clicked="{}" :noamine="true" :tagcont="'Starter'"/>
-              <Icon :srcc="'desktop'" mode="large" class=" tw-ml-3" @button_clicked="{}" :noamine="true" :tagcont="'Show Desktop'" @click.native="showdesktop_clicked"/>
-              <Icon :srcc="'tasks'" mode="large" class=" tw-ml-3" @button_clicked="{}" :noamine="true" :tagcont="'Multitasking View'" @click.native="exit_full_screen"/>
+              <Icon :srcc="'menu'" mode="large" @button_clicked="{}" :noamine="true" :tagcont="'开始'"/>
+              <Icon :srcc="'desktop'" mode="large" class=" tw-ml-3" @button_clicked="{}" :noamine="true" :tagcont="'显示桌面'" @click.native="showdesktop_clicked"/>
+              <Icon :srcc="'tasks'" mode="large" class=" tw-ml-3" @button_clicked="{}" :noamine="true" :tagcont="'多任务视图'" @click.native="exit_full_screen"/>
               <div class="vl tw-mx-2"></div>
             </div>
           </div>
         </div>
         <div class="tw-flex-none tw-w-100 tw-h-full tw-hidden lg:tw-block">
           <div class=" tw-w-full tw-h-full tw-flex tw-items-center tw-justify-center">
-            <Icon :srcc="'explorer'" mode="large" class=" tw-ml-3" @button_clicked="explorer_clicked" :tagcont="'File Manager'" :cfocus="$store.state.current_focus_type==='explorer'" :fshow="has_explorer" v-if="has_explorer" @contextmenu.prevent.native="mr_clicked($event, 'explorer', has_explorer)"/>
-            <Icon :srcc="'doc'" mode="large" class=" tw-ml-3" @button_clicked="text_clicked" :tagcont="'Text Editor'" :cfocus="$store.state.current_focus_type==='text'" :fshow="has_text" v-if="has_text" @contextmenu.prevent.native="mr_clicked($event, 'text', has_text)"/>
-            <Icon :srcc="'browser'" mode="large"  class=" tw-ml-3" @button_clicked="browser_clicked" :tagcont="'Browser'" :cfocus="$store.state.current_focus_type==='browser'" :fshow="has_browser" @contextmenu.prevent.native="mr_clicked($event, 'browser', has_browser)"/>
-            <Icon :srcc="'music'" mode="large"  class=" tw-ml-3" @button_clicked="music_clicked" :tagcont="'Music'" :cfocus="$store.state.current_focus_type==='music'" :fshow="has_music" @contextmenu.prevent.native="mr_clicked($event, 'music', has_music)"/>
-            <Icon :srcc="'vscode'" mode="large"  class=" tw-ml-3" @button_clicked="vscode_clicked" :tagcont="'vscode'" :cfocus="$store.state.current_focus_type==='vscode'" :fshow="has_vscode" @contextmenu.prevent.native="mr_clicked($event, 'vscode', has_vscode)"/>
-            <Icon :srcc="'settings'" mode="large"  class=" tw-ml-3" @button_clicked="settings_clicked" :tagcont="'Settings'" :cfocus="$store.state.current_focus_type==='settings'" :fshow="has_settings" @contextmenu.prevent.native="mr_clicked($event, 'settings', has_settings)"/>
+            <Icon :srcc="'explorer'" mode="large" class=" tw-ml-3" @button_clicked="explorer_clicked" :tagcont="'文件管理器'" :cfocus="$store.state.current_focus_type==='explorer'" :fshow="has_explorer" v-if="has_explorer" @contextmenu.prevent.native="mr_clicked($event, 'explorer', has_explorer)"/>
+            <Icon :srcc="'doc'" mode="large" class=" tw-ml-3" @button_clicked="text_clicked" :tagcont="'文本编辑器'" :cfocus="$store.state.current_focus_type==='text'" :fshow="has_text" v-if="has_text" @contextmenu.prevent.native="mr_clicked($event, 'text', has_text)"/>
+            <Icon :srcc="'browser'" mode="large"  class=" tw-ml-3" @button_clicked="browser_clicked" :tagcont="'浏览器'" :cfocus="$store.state.current_focus_type==='browser'" :fshow="has_browser" @contextmenu.prevent.native="mr_clicked($event, 'browser', has_browser)"/>
+            <Icon :srcc="'music'" mode="large"  class=" tw-ml-3" @button_clicked="music_clicked" :tagcont="'音乐'" :cfocus="$store.state.current_focus_type==='music'" :fshow="has_music" @contextmenu.prevent.native="mr_clicked($event, 'music', has_music)"/>
+            <Icon :srcc="'vscode'" mode="large"  class=" tw-ml-3" @button_clicked="vscode_clicked" :tagcont="'VS Code'" :cfocus="$store.state.current_focus_type==='vscode'" :fshow="has_vscode" @contextmenu.prevent.native="mr_clicked($event, 'vscode', has_vscode)"/>
+            <Icon :srcc="'settings'" mode="large"  class=" tw-ml-3" @button_clicked="settings_clicked" :tagcont="'设置'" :cfocus="$store.state.current_focus_type==='settings'" :fshow="has_settings" @contextmenu.prevent.native="mr_clicked($event, 'settings', has_settings)"/>
             <Icon :srcc="'shell'" mode="large"  class=" tw-ml-3" @button_clicked="terminal_clicked" :tagcont="'Terminal'" :cfocus="$store.state.current_focus_type==='terminal'" :fshow="has_terminal" @contextmenu.prevent.native="mr_clicked($event, 'terminal', has_terminal)"/>
           </div>
         </div>
         <div class=" tw-absolute tw-h-full tw-flex tw-items-center tw-justify-center tw-flex-row-reverse tw-pr-2" style="right:0">
-            <Icon  :mode="'small'" :iconn="'bell'" :smalltrue="false" @button_clicked="bell_clicked" :tagcont="display_article_num+' Messages'"/>
+            <Icon  :mode="'small'" :iconn="'bell'" :smalltrue="false" @button_clicked="bell_clicked" :tagcont="display_article_num+' 条通知'"/>
             <div class="tw-w-2"></div>
-            <Icon :srcc="'recycle'" mode="large" :tagcont="'Recycle Bin'"/>
+            <Icon :srcc="'recycle'" mode="large" :tagcont="'回收站'"/>
             <div class="tw-w-20 tw-h-full tw-flex tw-flex-col tw-justify-start tw-items-center tw-py-1 ">
               <div class="tw-flex-none tw-py-0 tw-my-0 tw-font-bold tw-text-xl">{{PrefixZero(date_hour,2)}}:{{PrefixZero(date_minute,2)}}</div>
               <div class=" tw-absolute tw-text-xs tw-font-bold" style="top:52%">{{date_year}}/{{date_month}}/{{date_date}}</div>
             </div>
-            <Icon  :mode="'small'" :iconn="'power-standby'" :smalltrue="false" :tagcont="'Power'" @click.native="halt_clicked"/>
+            <Icon  :mode="'small'" :iconn="'power-standby'" :smalltrue="false" :tagcont="'电源'" @click.native="halt_clicked"/>
             <div class="tw-w-2"></div>
-            <Icon  :mode="'small'" :iconn="'keyboard'" :smalltrue="false" :tagcont="'On-Screen Keyboard'" @click.native = "keyboard_clicked"/>
+            <Icon  :mode="'small'" :iconn="'keyboard'" :smalltrue="false" :tagcont="'屏幕键盘'" @click.native = "keyboard_clicked"/>
             <div class="vl tw-mx-2"></div>
-            <Icon  :mode="'small'" :iconn="show_drawer?'chevron-right':'chevron-left'" style="z-index:20" @button_clicked="arrow_clicked" :tagcont="'Folder'"/>
+            <Icon  :mode="'small'" :iconn="show_drawer?'chevron-right':'chevron-left'" style="z-index:20" @button_clicked="arrow_clicked" :tagcont="'文件夹'"/>
             <div class="tw-w-2"></div>
-            <Icon  :mode="'small'" :iconn="'battery-70'" class="hide_when_needed transform-drawer-1-normal" :highertag="true" :tagcont="'Battery'"/>
+            <Icon  :mode="'small'" :iconn="'battery-70'" class="hide_when_needed transform-drawer-1-normal" :highertag="true" :tagcont="'电池'"/>
             <div class="tw-w-2"></div>
-            <Icon  :mode="'small'" :iconn="'wifi-arrow-up-down'" class="hide_when_needed transform-drawer-2-normal" :highertag="true" :tagcont="'Network'"/>
+            <Icon  :mode="'small'" :iconn="'wifi-arrow-up-down'" class="hide_when_needed transform-drawer-2-normal" :highertag="true" :tagcont="'网络'"/>
             <div class="tw-w-2"></div>
-            <Icon  :mode="'small'" :iconn="'volume-high'" class="hide_when_needed transform-drawer-3-normal" :highertag="true" :tagcont="'Volume'"/>
+            <Icon  :mode="'small'" :iconn="'volume-high'" class="hide_when_needed transform-drawer-3-normal" :highertag="true" :tagcont="'音量'"/>
             <div class="vl tw-mx-2 hide_when_needed transform-drawer-4-normal"></div>
         </div>
       </div>
