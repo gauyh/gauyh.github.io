@@ -10,9 +10,9 @@
       <div class=" tw-w-full  tw-h-full tw-rounded-b-2xl tw-overflow-hidden tw-flex
        tw-select-none" @contextmenu.prevent="mr_clicked">
         <div class=" tw-w-52 tw-bg-white tw-h-full tw-flex tw-flex-col tw-px-3 tw-py-2 tw-flex-none" >
-          <WindowSettingIcon :tag="'总则'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = 'Profile';selected_tag_2 = 'About Me'}"/>
+          <WindowSettingIcon :tag="'账户'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = 'Profile';selected_tag_2 = 'About Me'}"/>
           <WindowSettingIcon :tag="'技能'" :img="'skills'" :selected_tag="selected_tag"  @click.native="{selected_tag = 'Skills';selected_tag_2 = 'Badges'}"/>
-          <WindowSettingIcon :tag="'恢复'" :img="'paint'" :selected_tag="selected_tag"  @click.native="selected_tag = 'Resume'"/>
+          <WindowSettingIcon :tag="'TAIY2020'" :img="'paint'" :selected_tag="selected_tag"  @click.native="selected_tag = 'Resume'"/>
         </div>
         <div class=" tw-flex-grow tw-h-full  tw-p-2">
           <div class="tw-w-full tw-h-full  tw-flex">
@@ -82,12 +82,12 @@
                 </div>
                 <div ref="github_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center tw-mb-16" style="text-align:center" v-if="selected_tag_2 ==='And Some Else'">
                   <img src="../../assets/images/holo.gif" alt="" class="">
-                  <div class="tw-text-lg tw-mt-2 tw-tracking-wide tw-mb-10"> 永远相信美好的事物即将发生！ </div>
+                  <div class="tw-text-lg tw-mt-2 tw-tracking-wide tw-mb-10"> 希望你以后是个很棒的人，不是的话像现在一样温暖可爱的人也好！ </div>
                 </div> 
               </div>
               <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Resume'">
                 <div ref="overall_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center" style="text-align:center">
-                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> 希望你以后是个很棒的人，不是的话像现在一样温暖可爱的人也好。 </div>
+                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> 永远相信美好的事物即将发生！ </div>
                 </div>
               </div>
             </div>
