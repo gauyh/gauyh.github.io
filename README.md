@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/GoodManWEN/GoodManWEN.github.io/main/misc/figure.png)
-
 # 关于 gauyh.github.io
 
 此项目由[TAIY2020](https://github.com/TAIY2020)根据[GoodManWEN](https://github.com/GoodManWEN)的项目修改而来。以此来纪念一下四年大学生活。
