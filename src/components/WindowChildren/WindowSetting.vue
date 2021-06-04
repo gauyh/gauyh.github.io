@@ -10,19 +10,19 @@
       <div class=" tw-w-full  tw-h-full tw-rounded-b-2xl tw-overflow-hidden tw-flex
        tw-select-none" @contextmenu.prevent="mr_clicked">
         <div class=" tw-w-52 tw-bg-white tw-h-full tw-flex tw-flex-col tw-px-3 tw-py-2 tw-flex-none" >
-          <WindowSettingIcon :tag="'账户'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = 'Profile';selected_tag_2 = '账户'}"/>
-          <WindowSettingIcon :tag="'技能'" :img="'skills'" :selected_tag="selected_tag"  @click.native="{selected_tag = 'Skills';selected_tag_2 = '技能'}"/>
+          <WindowSettingIcon :tag="'账户'" :img="'profile'" :selected_tag="selected_tag" @click.native="{selected_tag = '账户';selected_tag_2 = '账户'}"/>
+          <WindowSettingIcon :tag="'技能'" :img="'skills'" :selected_tag="selected_tag"  @click.native="{selected_tag = '技能';selected_tag_2 = '技能'}"/>
           <WindowSettingIcon :tag="'TAIY2020'" :img="'paint'" :selected_tag="selected_tag"  @click.native="selected_tag = 'TAIY2020'"/>
         </div>
         <div class=" tw-flex-grow tw-h-full  tw-p-2">
           <div class="tw-w-full tw-h-full  tw-flex">
             <div class="tw-w-48 tw-flex-none tw-rounded-xl tw-bg-white tw-p-2">
-              <div class="tw-w-full tw-h-full" v-if="selected_tag === '账户'">
+              <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Profile'">
                 <WindowSettingIcon :tag="'关于此项目'" :mdi="'beaker-question'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '关于此项目'"/>
                 <WindowSettingIcon :tag="'Github 统计'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'Github 统计'"/>
                 <WindowSettingIcon :tag="'CodeWars'" :mdi="'pistol'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'CodeWars'"/>
               </div>
-              <div class="tw-w-full tw-h-full" v-if="selected_tag === '技能'">
+              <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Skills'">
                 <WindowSettingIcon :tag="'技能点'" :mdi="'shield-half-full'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '技能点'"/>
                 <WindowSettingIcon :tag="'碎碎念'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '碎碎念'"/>
               </div>
