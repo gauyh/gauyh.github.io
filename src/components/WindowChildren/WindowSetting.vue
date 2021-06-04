@@ -17,12 +17,12 @@
         <div class=" tw-flex-grow tw-h-full  tw-p-2">
           <div class="tw-w-full tw-h-full  tw-flex">
             <div class="tw-w-48 tw-flex-none tw-rounded-xl tw-bg-white tw-p-2">
-              <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Profile'">
+              <div class="tw-w-full tw-h-full" v-if="selected_tag === '账户'">
                 <WindowSettingIcon :tag="'关于此项目'" :mdi="'beaker-question'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '关于此项目'"/>
                 <WindowSettingIcon :tag="'Github 统计'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'Github 统计'"/>
                 <WindowSettingIcon :tag="'CodeWars'" :mdi="'pistol'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = 'CodeWars'"/>
               </div>
-              <div class="tw-w-full tw-h-full" v-if="selected_tag === 'Skills'">
+              <div class="tw-w-full tw-h-full" v-if="selected_tag === '技能'">
                 <WindowSettingIcon :tag="'技能点'" :mdi="'shield-half-full'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '技能点'"/>
                 <WindowSettingIcon :tag="'碎碎念'" :mdi="'card-account-details-star'" :selected_tag="selected_tag_2"  @click.native="selected_tag_2 = '碎碎念'"/>
               </div>
