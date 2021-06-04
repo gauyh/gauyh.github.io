@@ -35,7 +35,7 @@
                     <img src="../../assets/images/taiy2020.png" alt="" class="tw-bg-red-500">
                   </div>
                   <div class="tw-mt-3 tw-text-gray-400">TAIY2020</div>
-                  <div class="tw-text-xl tw-mt-2 tw-tracking-wide"> Hello, 本项目来自于 "https://GoodManWEN.github.io" 并由 TAIY2020 修改发布.</div>
+                  <div class="tw-text-xl tw-mt-2 tw-tracking-wide">Hello, 本项目来自于 "https://GoodManWEN.github.io" 并由 TAIY2020 修改发布.</div>
                   <div class="tw-text-lg tw-mt-2 tw-tracking-wide"> 更多信息请访问源仓库，支持原作者，谢谢！ </div>
                 </div>
                 <div ref="github_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center" style="text-align:center" v-if="selected_tag_2 ==='Github 统计'">
@@ -87,7 +87,7 @@
               </div>
               <div class="tw-w-full tw-h-full" v-if="selected_tag === 'TAIY2020'">
                 <div ref="overall_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col tw-justify-center" style="text-align:center">
-                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> 永远相信美好的事物即将发生！ </div>
+                  <div class="tw-text-4xl tw-mt-2 tw-tracking-wider"> 永远相信美好的事情即将发生！ </div>
                 </div>
               </div>
             </div>
@@ -111,8 +111,8 @@ export default {
   },
   data(){
     return {
-      selected_tag:"Profile",
-      selected_tag_2:"About Me",
+      selected_tag:"账户",
+      selected_tag_2:"关于此项目",
     }
   },
   props:{
